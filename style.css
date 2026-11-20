@@ -1,0 +1,141 @@
+.cabeca {
+  padding: 70px 5%;
+  text-align: center;
+  background-color: #eef0e6;
+  color: #173b31;
+}
+
+.cabeca span {
+  color: #829957;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.cabeca h1 {
+  margin: 15px 0;
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.cabeca p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #607069;
+  line-height: 1.7;
+}
+
+
+.images {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 70px 5%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 16px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+}
+
+.img img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.img small {
+  margin-top: 13px;
+  color: #829957;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.img strong {
+  margin-top: 4px;
+  color: #173b31;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+
+.footer{
+    background-color: #122f27;
+}
+
+.rodape {
+    width: 100%;
+    margin-top: 70px;
+    padding: 45px 5%;
+    background-color: #173b31;
+    color: white;
+    box-sizing: border-box;
+}
+
+.rodape-conteudo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rodape-identidade h2 {
+    margin: 0 0 10px;
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.rodape-identidade p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+}
+
+.rodape-informacoes {
+    text-align: right;
+}
+
+.rodape-informacoes p {
+    margin: 0 0 14px;
+    color: #dce7a3;
+    font-size: 13px;
+}
+
+.rodape-informacoes a {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.rodape-informacoes a:hover {
+    color: #dce7a3;
+    text-decoration: underline;
+}
+
+.rodape-final {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+.rodape-final small {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 11px;
+}
+
